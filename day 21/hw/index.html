@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="gray">
+    
+<!-- 2) ჩამოწერეთ ჩვენს მიერ ნასწავლი ყველა Page Layout-ის შემადგენელი ელემენტები ბდა თითოეულს მიუწერეთ დანიშნულება. -->
+<!-- header - განთავსებულია გვერდის ზედა ნაწილში შეიცავს ლოგოს სათაურს მენიუს ან ნავიგაციის ბმულებს. -->
+<!-- footer - განთავსებულია გვერდის ბოლოში. ხშირად მოიცავს საკონტაქტო ინფორმაციას, ავტორობის აღნიშვნას, სოციალურ ბმულებს, პოლიტიკას და სხვა დამატებით ინფორმაციას. -->
+<!-- main - გვერდის ის ნაწილი, სადაც განთავსებულია მთავარი შინაარსი – ტექსტი, სურათები, ვიდეოები და სხვა. -->
+<!-- nav - ჩვეულებრივ განთავსებულია header-ში ან გვერდზე. შეიცავს ბმულებს გვერდის სხვა სექციებზე გადასასვლელად. -->
+<!-- section - გამოიყენება შინაარსის ჯგუფებად დაყოფისთვის. თითოეული სექცია შეიძლება შეიცავდეს სათაურს და შინაარსს. -->
+<!-- article - გამოიყენება დამოუკიდებელი შინაარსის ერთეულებისთვის, როგორიცაა ბლოგის პოსტი ან ახალი ამბავი. -->
+<!-- aside - გვერდის გვერდითი ელემენტი, რომელიც შეიცავს დამატებით ინფორმაციას, როგორიცაა ბმულები, რეკლამები ან სხვა კონტენტი, რომელიც არ არის პირდაპირ დაკავშირებული მთავარ შინაარსთან. -->
+
+
+<!-- 3) კომენტარის სახით ახსენით თუ რაში გვჭირდება Page Layout-ის გამოყენება ვებ-გვერდებზე, ჩამოწერეთ მისი გამოყენების დადებითი მხარეები. -->
+<!-- Page Layout-ის გამოყენება ვებ-გვერდებზე აუცილებელია, რადგან ის უზრუნველყოფს სტრუქტურას და ორგანიზაციას, რაც აუმჯობესებს მომხმარებლის გამოცდილებას. 
+    დადებითი მხარეებია: -->
+<!-- 1. სტრუქტურა - Page Layout უზრუნველყოფს ვებ-გვერდის სტრუქტურას, რაც მომხმარებელს ეხმარება მარტივად ნავიგაციაში და შინაარსის სწრაფად პოვნაში. -->
+<!-- 2. ვიზუალური მიმზიდველობა - სწორად დაგეგმილი Page Layout აუმჯობესებს ვებ-გვერდის ვიზუალურ მიმზიდველობას, რაც ზრდის მომხმარებლის ჩართულობას. -->
+<!-- 3. ადაპტირება - Page Layout-ის გამოყენება საშუალებას იძლევა ვებ-გვერდი ადაპტირდეს სხვადასხვა მოწყობილობებზე, რაც მნიშვნელოვანია მობილური მომხმარებლებისთვის. -->
+<!-- 4. ხელმისაწვდომობა - Page Layout-ის გამოყენება უზრუნველყოფს ვებ-გვერდის ხელმისაწვდომობას ყველა მომხმარებლისთვის, მათ შორის შეზღუდული შესაძლებლობების მქონე პირებისთვის. -->
+<!--და 5, ყველაზე მთავარი, კოდის მკითხველისთვის ბევრად ლამაზი და მარტივი წასაკითხი იქნება ჩვენს მიერ ნაწერი კოდი-->
+
+<!-- 4) შექმენით ტანსაცმლის მაღაზიის Multipage ვებ-საიტი,სადაც გაყიდით თქვენი სტილის შესაბამის ტანსაცმელებს. საიტის თითოეული გვერდი დაყავით სამ სექციად (Header, Main, Footer) და თითოეულ სექციაში შესაბამისი ინფორმაცია ჩაწერეთ. რათქმაუნდა საიტზე დაამატეთ ნავიგაცია. ასევე, თითოეულ პროდუქტს მიუწერეთ აღწერა, ფასი და "Add to cart" ღილაკი. ეცადეთ აქამდე ნასწავლი მასალა გამოიყენოთ. -->
+<!-- <header>
+    <h1>My Fashion Store</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="home">
+        <h2>Welcome to My Fashion Store</h2>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.o-glUo1SGVKBN2AigO1DTwHaJQ&pid=Api&P=0&h=220" alt="buggy pants for man" width="300px">
+            <p>Price: $19.99</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.kVVbWxQU5nLFP66Cj424qAHaJQ&pid=Api&P=0&h=220" width="300px">
+            <p>Price: $39.99</p>
+            <button>Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/originals/61/94/7e/61947e80b58f8b303c91e5cc809a69b7.jpg" width="300px">
+            <p>Price: $59.99</p>
+            <button>Add to cart</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing the best fashion products at affordable prices.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: BIGBLACKMONKEY2009@gmail.com
+        </p>
+        <p>Phone: +995 555 55 55 55</p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2023 My Fashion Store. All rights reserved.</p>
+    <p>Follow us on social media: 
+        <a href="https://www.facebook.com/nika11keshelava/">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+    </p>
+</footer> -->
+
+
+<!-- 5) შექმენით საიტი "My future Career". სურვილისამებრ იყოს Single-Page/Multi-Page. საიტზე გამოიყენეთ Page Layout-ის კომპონენტები და აქამდე ნასწავლი ყველა Html-ის ელემენტი. დანარჩენს თქვენს ფანტაზიას მივანდობ - ეცადეთ სტრუქტურულად გამართული საიტი გამოგივიდეთ. -->
+<!-- <section id="future-career">
+    <h2>My Future Career</h2>
+    <p>I aspire to become a software developer, specializing in web development and artificial intelligence.</p>
+    <h3>Skills I Want to Acquire:</h3>
+    <ul>
+        <li>Javascripts</li>
+        <li>Python</li>
+        <li>Responsive web design</li>
+        <li>CSS</li>
+    </ul>
+    <h3>Steps to Achieve My Career Goals:</h3>
+    <ol>
+        <li>Complete my degree in Computer Science</li>
+        <li>Build a portfolio of projects</li>
+        <li>Gain experience through internships</li>
+        <li>study more</li>
+    </ol>
+    <h3>Resources I Plan to Use:</h3>
+    <ul>
+        <li>Online courses in GOA</li>
+        <li>Books on web development and AI</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; my future career</p>
+    <p>Contact: dont contact me</p>
+    <p>Follow me on social media: 
+        <a href="https://www.facebook.com/nika11keshelava/">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+    </p>
+</footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

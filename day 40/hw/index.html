@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 2) ჩათვალეთ რომ საიტზე დამატებული გაქვთ ერთი პარაგრაფი. მას ჯერ Class Selector-ის საშუალებით გაუწერეთ text-align: left, შემდეგ ID selector-ის გამოყენებით text-align: center და border: 1px solid blue. ასევე, Element Selector-ით Background-color: black გაუწერეთ, ბოლოს კი inline CSS-ის საშუალებით color: red და text-align: center მიანიჭეთ. რა იქნება ამ პარაგრაფის საბოლოო სტილი და რატომ? პასუხი დეტალურად ახსენით.
+პარაგრაფის საბოლოო სტილი იქნება color: red, text-align: center, border: 1px solid blue და background-color: black. ეს იმიტომ, რომ inline CSS აქვს უმაღლესი პრიორიტეტი და ის overrides-ავს ყველა სხვა სტილს. ID selector-ის text-align: center ასევე გამოიყენება, მაგრამ inline CSS-ის text-align: center უფრო მაღლა დგას. Element Selector-ის background-color: black და Class Selector-ის text-align: left არ იმოქმედებს, რადგან ისინი უფრო დაბალი პრიორიტეტით არიან. -->
+
+<!-- 3) საიტზე დაამატეთ 3 სხვადასხვა level-ის heading. სამივეს მიანიჭეთ იასამნისფერი ტექსტის ფერი, თუმცა პირველ Heading-ს ამ ფერის მნიშვნელობა სიტყვიერად გაუწერეთ, მეორე Heading-ს rgb-ის გამოყენებით და მესამე Heading-ისთვის იისფერის მისანიჭებლად HEX code გამოიყენეთ. Rgb და HEX code-ებზე თქვენ თვითონ გატესტეთ შესაძლო მნიშვნელობები, რათა მიიღოთ იასამნისფერი, ასე უკეთ ჩაწვდებით ორივე კოდის გამოყენების ტექნიკას. -->
+<!-- <h1 style="color: purple;">This is a Heading 1</h1>
+<h2 style="color: rgb(128, 0, 128);">This is a Heading 2</h2>
+<h3 style="color: #800080;">This is a Heading 3</h3> -->
+
+
+<!-- 4) საიტზე დაამატეთ 5 ღილაკი. 
+
+    • პირველ 3 ღილაკს მიანიჭეთ მწვანე უკანა ფონი და 2px solid ნარინჯისფერი ბორდერი. (გამოიყენეთ Rgb)
+    • დანარჩენ 2 ღილაკს კი მიეცით მუქი წითელი ფერის უკანა ფონი და ლურჯი ფერის 1px double ბორდერი. (გამოიყენეთ HEX code) -->
+<!-- <button style="background-color: rgb(0, 128, 0); border: 2px solid orange;">Button 1</button>
+<button style="background-color: rgb(0, 128, 0); border: 2px solid orange;">Button 2</button>
+<button style="background-color: rgb(0, 128, 0); border: 2px solid orange;">Button 3</button>
+<button style="background-color: darkred; border: 1px double #0000FF;">Button 4</button>
+<button style="background-color: darkred; border: 1px double #0000FF;">Button 5</button> -->
+
+<!-- 5) საიტზე დაამატეთ 4 ფოტო. თითოეულს მიანიჭეთ განსხვავებული Id და გასტილეთ ინდივიდუალურად:
+
+    •    პირველი ფოტო: ზომა: 100x100, მუქი წითელი ფერის 2px solid ბორდერი.
+    •    მეორე ფოტო: 150x150 ზომით, ლურჯი ფერის 3px dashed ბორდერი.
+    •    მესამე ფოტო: ზომით 200x200,  იისფერი ფერის 4px dotted ბორდერი
+    •    მეოთხე ფოტო კი: ზომაში იყოს 250x250, ბორდერი კი მწვანე ფერის 2px double სტილის ჰქონდეს. -->
+
+
+<img id="photo1" src="https://tse3.mm.bing.net/th/id/OIP.ULtoV4dYZUtZKfVvbqCsFQHaE7?pid=Api&P=0&h=220" alt="Photo 1" style="width: 100px; height: 100px; border: 2px solid darkred;">
+
+<img id="photo2" src="https://tse2.mm.bing.net/th/id/OIP.GBRm2-zS2sgOzve-U-94mgHaEo?pid=Api&P=0&h=220" alt="Photo 2" style="width: 150px; height: 150px; border: 3px dashed blue;">
+
+<img id="photo3" src="https://tse1.mm.bing.net/th/id/OIP.UBFHknzc9agXXd8iYv8awgHaEK?pid=Api&P=0&h=220" alt="Photo 3" style="width: 200px; height: 200px; border: 4px dotted purple;">
+
+<img id="photo4" src="https://tse4.mm.bing.net/th/id/OIP.xvnr2ExgTQZU5PBxSe7VSAHaEK?pid=Api&P=0&h=220" alt="Photo 4" style="width: 250px; height: 250px; border: 2px double green;">    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

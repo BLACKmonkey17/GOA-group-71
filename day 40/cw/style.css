@@ -1,0 +1,49 @@
+/* ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის double ბორდერი და ზომა: 200 x 200. 
+ხოლო დრჩენილ 1 ფოტოს მიანიჭეთ იასამნისფერი solid ბორდერი და ზომა: 150 x 150. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ცისფერი ფერი, 2-ს კი ნარინჯისფერი ფერი.ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.
+
+ორივე Heading-ს მიეცით ლურჯი dotted ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+ღილაკები კი ინდივიდუალურად გასტილეთ. ამ ორ ღილაკს ჰქონდეს ერთმანეთისგან სხვადასხვა ფერი, ბორდერი და ზომა. */
+img.img1{
+    border:red double;
+    width: 200px;
+    height: 200px;
+}
+
+img.img2{
+    border: solid purple;
+    width: 150px;
+    height: 150px;
+}
+
+p.p{
+    color: cyan;
+    text-align: center;
+}
+
+p.pp{
+    color:orange;
+    text-align: center
+}
+
+h1.headings{
+    border:blue dotted;
+    color:purple;
+    text-align: center
+}
+
+button.b{
+    border:dotted;
+    color:green;
+        width: 50px;
+        height: 50px;
+}
+
+button.bb{
+        border:solid;
+    color:blue;
+        width: 40px;
+        height: 40px;
+}
