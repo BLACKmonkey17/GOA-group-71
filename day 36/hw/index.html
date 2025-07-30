@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--  HTML-ში კომენტარის სახით ჩამოწერეთ CSS-ის გასტილვის რამდენი ტექნიკა არსებობს. თქვენი სიტყვებით ახსენით ეს თითოეული ტექნიკა.
+CSS-ის გასტილვის ტექნიკები არსებობს Inline CSS, Internal CSS და External CSS.
+
+
+დეტალურად ახსენით რა განსხვავებაა CSS-ის ტექნიკებს შორის.
+Inline CSS გამოიყენება კონკრეტულ ელემენტზე სტილის მიცემისთვის, Internal CSS კი გამოიყენება მთელი გვერდის გასტილვისთვის და ჩაწერილია <style> ტეგში. External CSS კი ცალკე ფაილში ინახება და ყველა გვერდზე შეიძლება გამოყენებული იყოს, რაც საშუალებას იძლევა ერთიანი სტილი შევინარჩუნოთ მთელ ვებსაიტზე.
+
+დაწერეთ რას ეწოდება Property & Value წყვილი, რას ეწოდება დეკლარაცია და რას ნიშნავს CSS rule.
+Property & Value წყვილი არის სტილის მიცემის ელემენტი, სადაც Property არის ის თვისება, რომელსაც ვცვლით (მაგალითად, color), ხოლო Value არის ის მნიშვნელობა, რომელსაც ამ თვისებას ვანიჭებთ (მაგალითად, red). დეკლარაცია არის Property & Value წყვილის კომბინაცია, რომელიც განსაზღვრავს კონკრეტულ სტილს. CSS rule კი არის მთელი სტილის წესის ერთობლიობა, რომელიც შეიცავს სელექტორს და დეკლარაციებს.-->
+
+<!-- შექმენით Multi-page ვებსაიტი თქვენი ფავორიტი მუსიკის ჟანრის შესახებ. გქონდეთ 3 მთავარი გვერდი:
+
+• About this genre
+• What i like about this music genre
+• My favorite songs from this genre.
+
+სამივე გვერდი ერთმანეთთან დააკავშირეთ ნავიგაციის საშუალებით. ეცადეთ გამოიყენოთ აქამდე ნასწავლი ყველა HTML-ის მასალა. რაც ყველაზე მთავარია, საიტზე დამატებული ელემენტები External CSS-ის საშუალებით გასტილეთ. ეცადეთ, რომ მაქსიმალურად დახვეწილი დიზაინი გამოგივიდეთ.
+
+შექმენით ვებ-საიტი: დაამატეთ 4 ფოტო, 5 პარაგრაფი და 2 Heading-ი.
+
+ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის solid ბორდერი და ზომა: 150 x 150. 
+ხოლო დანარჩენ 2 ფოტოს მიანიჭეთ იასამნისფერი double ბორდერი და ზომა: 200 x 200. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ლურჯი ფერი, 2-ს კი მწვანე ფერი. (ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.)
+
+ორივე Heading-ს მიეცით ლურჯი solid ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+(ამ დავალებების შესასრულებლად გამოიყენეთ Id-ები. ელემენტები გასტილეთ Exrernal CSS-ში.) -->
+<h1>My Favorite Music Genre</h1>
+<nav>
+    <ul>
+        <li><a href="about.html">About this Genre</a></li>
+        <li><a href="like.html">What I Like About This Music Genre</a></li>
+        <li><a href="favorites.html">My Favorite Songs from This Genre</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>About This Genre</h2>
+    <p>This genre of music has a rich history and a unique sound that resonates with many people.</p>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.jXE_hSwHp9PChSgNfjNwBQHaEo?pid=Api&P=0&h=220" alt="Genre Image" style="border: 2px solid red; width: 150px; height: 150px;">
+</section>
+
+<section>
+    <h2>What I Like About This Music Genre</h2>
+    <p>I love the emotional depth and the storytelling aspect of this genre. The melodies are often captivating.</p>
+    <img src="https://tse3.mm.bing.net/th/id/OIP.2wqiLPkVvRBBGkBRQ1fW4gHaEJ?pid=Api&P=0&h=220" alt="Another Genre Image" style="border: 2px solid purple; width: 200px; height: 200px;">
+</section>
+
+<section>
+    <h2>My Favorite Songs from This Genre</h2>
+    <p>Here are some of my favorite songs: </p>
+    <ul>
+        <li>eddy x oblock</li>
+        <li>Kirame</li>
+        <li>cece</li>
+    </ul>
+    <img src="https://tse2.mm.bing.net/th/id/OIP.DsG8tTvecL5S-yk81rjnoAHaEc?pid=Api&P=0&h=220" alt="Favorite Song Image" style="border: 2px solid red; width: 150px; height: 150px;">
+    <img src="https://tse4.mm.bing.net/th/id/OIP.TH9eKm7n4IcfuhTZeHP2LgHaEK?pid=Api&P=0&h=220" alt="Another Favorite Song Image" style="border: 2px solid purple; width: 200px; height: 200px;">
+
+</section>
+<footer>
+    <p>&copy; 2023 My Favorite Music Genre</p>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
